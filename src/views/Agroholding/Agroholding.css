@@ -1,0 +1,60 @@
+.agroholding {
+    display: flex;
+    margin: 50px 0 0;
+    padding: 0 10vw 50px;
+    flex-direction: column;
+}
+
+.agroholding-title {
+    color: #78C151;
+    font-size: 26px;
+    margin: 30px 0 0;
+}
+
+.agroholding-table {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    margin: 100px 0 0;
+    flex-direction: column;
+}
+
+.agroholding-table-header {
+    width: 100%;
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: 3vw 11vw auto 10vw;
+}
+
+.agroholding-table-header-item {
+    color: #78C151;
+}
+
+.agroholding-table-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.agroholding-table-body-item {
+    display: grid;
+    color: #78C151;
+    margin: 1vw auto 0;
+    column-gap: 50px;
+    grid-template-columns: 3vw 11vw auto 10vw;
+}
+
+.agroholding-table-body-item-number {
+
+}
+
+.agroholding-table-body-item-img {
+    width: 11vw;
+}
+
+.agroholding-table-body-item-description {
+
+}
+
+.agroholding-table-body-item-amount {
+
+}
