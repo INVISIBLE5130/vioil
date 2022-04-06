@@ -1,0 +1,82 @@
+.about_v2 {
+    height: auto;
+    display: flex;
+    margin-top: 2.86vw;
+    flex-direction: column;
+}
+
+.about_v2-image_wrapper {
+    display: flex;
+    height: 88.8vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: url('../../assets/about.png') no-repeat center;
+    background-size: cover;
+}
+
+.about_v2-image_wrapper-title {
+    color: #FFFFFF;
+    font-size: 4.6vw;
+    font-weight: 700;
+    line-height: 103px;
+    font-family: Ubuntu, sans-serif;
+}
+
+.about_v2-image_wrapper-button {
+    outline: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    text-decoration: none;
+    font-family: Ubuntu, sans-serif;
+
+    padding: 12px;
+    margin-top: 1.9vw;
+    background-color: #FFC94D;
+}
+
+.about_v2-info {
+    display: flex;
+    margin-top: 7.2vw;
+    justify-content: space-between;
+}
+
+.about_v2-info-title {
+    width: 33vw;
+    color: #FFFFFF;
+    margin: auto 0;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 63px;
+    font-family: Ubuntu, sans-serif;
+}
+
+.about_v2-info-list {
+    width: 50%;
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 3vw;
+    column-gap: 3vw;
+}
+
+.about_v2-info-list-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.about_v2-info-list-item-title {
+    color: #FFC94D;
+    font-size: 1.8vw;
+    font-weight: 700;
+    font-family: Ubuntu, sans-serif;
+}
+
+.about_v2-info-list-item-description {
+    color: #FFFFFF;
+    font-size: 1.5vw;
+    font-weight: 500;
+    margin-top: 0.8vw;
+    font-family: Ubuntu, sans-serif;
+}

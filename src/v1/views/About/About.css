@@ -44,7 +44,7 @@
 .about-body-list {
     width: 75%;
     padding-left: 50px;
-    list-style-image: url("/src/assets/list-icon.svg");
+    list-style-image: url("/src/v1/assets/list-icon.svg");
 }
 
 .about-body-list li {

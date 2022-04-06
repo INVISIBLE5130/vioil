@@ -1,0 +1,73 @@
+.history_v2 {
+    display: flex;
+    margin-top: 7vw;
+    align-items: center;
+    flex-direction: column;
+}
+
+.history_v2-title {
+    color: #FFC94D;
+    font-size: 3vw;
+    font-weight: 700;
+    font-family: Ubuntu, sans-serif;
+}
+
+.history_v2-sub_title {
+    color: #FFFFFF;
+    font-size: 2.5vw;
+    font-weight: 500;
+    text-align: center;
+    font-family: Ubuntu, sans-serif;
+}
+
+.history_v2-blocks {
+    width: 100%;
+    height: 140vw;
+    position: relative;
+}
+
+.history_v2-blocks-item {
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.history_v2-blocks-orange,
+.history_v2-blocks-grey {
+    width: 27vw;
+    padding: 1vw;
+    border-radius: 2vw;
+    position: absolute;
+    background: #262525;
+    border: 1px solid #FFC94D;
+}
+
+.history_v2-blocks-orange {
+    background: #FFC94D;
+}
+
+.history_v2-blocks-orange-title,
+.history_v2-blocks-grey-title {
+    color: #FFC94D;
+    font-size: 3vw;
+    font-weight: 700;
+    font-family: Ubuntu, sans-serif;
+}
+
+.history_v2-blocks-orange-title {
+    color: #fff;
+}
+
+.history_v2-blocks-grey-description {
+    color: #fff;
+    margin-top: 2vw;
+    font-size: 1.5vw;
+    font-weight: 500;
+    font-family: Ubuntu, sans-serif;
+}
+
+.history_v2-blocks-grey-description,
+.history_v2-blocks-orange-description {
+    color: #fff;
+}

@@ -51,7 +51,7 @@
 
 .history-item-list {
     padding-left: 100px;
-    list-style-image: url("/src/assets/list-icon.svg");
+    list-style-image: url("/src/v1/assets/list-icon.svg");
 }
 
 .history-item-list li:first-child {

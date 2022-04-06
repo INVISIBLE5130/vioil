@@ -1,0 +1,49 @@
+.card {
+    display: flex;
+    margin-top: 3vw;
+}
+
+.card-photo {
+    width: 12.5vw;
+    height: 12.5vw;
+    border-radius: 50%;
+}
+
+.card-info {
+    display: flex;
+    margin: 1.5vw 0 0 2vw;
+    flex-direction: column;
+}
+
+.card-info-name {
+    color: #FFC94D;
+    font-weight: 700;
+    font-size: 2.25vw;
+    font-family: Ubuntu, sans-serif;
+}
+
+.card-info-role {
+    color: #FFFFFF;
+    font-size: 1vw;
+    font-weight: 500;
+    margin-top: 0.5vw;
+    font-family: Ubuntu, sans-serif;
+}
+
+.card-info-location {
+    display: flex;
+    margin-top: 0.5vw;
+    align-items: center;
+}
+
+.card-info-location img {
+    width: 1vw;
+}
+
+.card-info-location p {
+    color: #FFFFFF;
+    font-size: 1vw;
+    font-weight: 400;
+    margin-left: 0.5vw;
+    font-family: Ubuntu, sans-serif;
+}

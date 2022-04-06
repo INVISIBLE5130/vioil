@@ -1,0 +1,35 @@
+.search {
+    display: flex;
+    margin-top: 2vw;
+    position: relative;
+    align-items: center;
+    border-radius: 1.5vw;
+    background-color: #262525;
+}
+
+.search-input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 0.5vw 1vw;
+    border-radius: 1.5vw;
+    background-color: #262525;
+
+    color: #767676;
+    font-size: 1vw;
+    font-weight: 500;
+    font-family: Ubuntu, sans-serif;
+}
+
+.search-button {
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.25vw;
+    font-family: Ubuntu, sans-serif;
+
+    padding: 0.25vw 1vw;
+    border-radius: 1.5vw;
+    background-color: #FFC94C;
+}

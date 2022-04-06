@@ -1,0 +1,150 @@
+.items {
+    display: grid;
+    row-gap: 1.5vw;
+    column-gap: 1.5vw;
+    margin-top: 3.75vw;
+    grid-template-columns: repeat(auto-fill, calc(25% - 1.5vw));
+}
+
+.items-card {
+    padding: 1vw;
+    display: flex;
+    align-items: center;
+    border-radius: 1.5vw;
+    flex-direction: column;
+    border: 1px solid #000000;
+    background-color: #262525;
+}
+
+.items-card-title {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 1.5vw;
+    align-self: flex-start;
+    font-family: Ubuntu, sans-serif;
+}
+
+.items-card-icon_title {
+    color: #FFC94D;
+    font-weight: 700;
+    font-size: 2.25vw;
+    text-align: center;
+    font-family: Ubuntu, sans-serif;
+}
+
+.items-card-description {
+    color: #FFFFFF;
+    font-size: 1vw;
+    font-weight: 500;
+    font-family: Ubuntu, sans-serif;
+}
+
+.items-card-education_info {
+    width: 100%;
+    display: flex;
+    margin-top: 1vw;
+    justify-content: space-between;
+}
+
+.items-card-education_info hr {
+    background-color: #A0A0A0;
+}
+
+.items-card-education_info-text,
+.items-card-teacher {
+    color: #FFFFFF;
+    font-size: 1.5vw;
+    font-weight: 500;
+    text-align: center;
+    font-family: Ubuntu, sans-serif;
+}
+
+.items-card-education_info-text span,
+.items-card-teacher span {
+    color: #A0A0A0;
+    font-size: 1vw;
+}
+
+.items-card-button {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 1.25vw;
+    font-family: Ubuntu, sans-serif;
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 1vw 0 0.25vw;
+    padding: 0.5vw 0.75vw;
+    border-radius: 0.75vw;
+    background-color: #FFC94D;
+}
+
+.items-card-contact {
+    color: #FFC94D;
+    font-size: 1.5vw;
+    font-weight: 700;
+    margin-top: 1.5vw;
+    align-self: flex-start;
+    font-family: Ubuntu, sans-serif;
+}
+
+.items-card-contact:first-child {
+    margin-top: 1vw;
+}
+
+.items-card-contact span {
+    color: #FFFFFF;
+    font-size: 1vw;
+}
+
+.items-card-list {
+    display: flex;
+    margin: 3vw 2vw;
+    flex-direction: column;
+}
+
+.items-card-list-item {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.items-card-list-item-point {
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    left: -2vw;
+    width: 1.25vw;
+    height: 1.25vw;
+    border-radius: 50%;
+    position: absolute;
+    border: 2px solid #FFC94D;
+}
+
+.items-card-list-item-title {
+    color: #FFFFFF;
+    font-size: 1.5vw;
+    font-weight: 400;
+    font-family: Ubuntu, sans-serif;
+}
+
+.items-card-icon[alt="Time"] {
+    width: 8.5vw;
+    margin: 3.25vw 0;
+}
+
+.items-card-icon[alt="Education"],
+.items-card-icon[alt="Vacation"] {
+    width: 7.5vw;
+    margin: 0.5vw 0;
+}
+
+.items-card-icon[alt="Language"] {
+    width: 13.5vw;
+    margin-top: 1.5vw;
+}
+
+.items-card-icon[alt="Mood"] {
+    width: 13.5vw;
+}
